@@ -5,8 +5,9 @@
 Kurzbeschreibung:
 Dieses Projekt erstellt automatisch einen einseitigen, A4-formatierten Lebenslauf (CV) aus Benutzereingaben. Aktuell erfolgt die Eingabe über die Kommandozeile. Ziel des Projekts war es, eine Grundlage zu schaffen, um den Prozess der CV-Erstellung zu vereinfachen.
 
-Projektstruktur
-.
+Projektstruktur:
+
+
 ├── project.py        # Hauptdatei: Eingabe, Validierung, CV-Erstellung
 
 ├── cvgenerator.py    # PDF-Generierung für jede CV-Sektion
