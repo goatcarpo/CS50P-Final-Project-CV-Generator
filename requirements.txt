@@ -1,0 +1,4 @@
+# Pip-installable libraries 
+#### FPDF: Library used for generating and setting pdf files - in this case to create,format and save the CV as a pdf file
+#### PIL: Library used for working with images - in this case it was used to create and format the template portrait for the CV
+#### PYTEST: Library used for uni testing

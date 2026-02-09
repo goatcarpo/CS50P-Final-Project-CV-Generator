@@ -1,0 +1,8 @@
+Project's Title: CV Generator
+Name: Taubenhansl David
+Github: goatcarpo
+EDX: davidtaubenhansl
+City: Weiding
+Country: Germany
+Date of Recording - DD/MM/YYYY: 30.05.2025
+
