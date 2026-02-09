@@ -5,7 +5,7 @@
 #### Description:
 
 This program's goal is to take user's input and then automatically create a one page, A4 formatted CV with the user's information.
-The format and design is very basic but the design aspect can be improved later. For now it was my goal to simplify the process of creating a CV.
+The format and design is very basic and input is given through the command-line for now. For now it was my goal to set a foundation for simplifying the process of creating a CV.
 
 ## project.py
 
