@@ -8,13 +8,17 @@ Dieses Projekt erstellt automatisch einen einseitigen, A4-formatierten Lebenslau
 Projektstruktur
 .
 ├── project.py        # Hauptdatei: Eingabe, Validierung, CV-Erstellung
+
 ├── cvgenerator.py    # PDF-Generierung für jede CV-Sektion
+
 ├── test_project.py   # Tests für die Validierungsfunktionen
+
 ├── assets/           # Bilder für Templates
 │   ├── applicantf.png
 │   ├── applicantm.png
 │   ├── applicantn.png
 │   └── cv_picture.png
+
 └── cv.pdf            # Ergebnisdatei (erstellt nach Ausführung)
 
 
