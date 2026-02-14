@@ -52,13 +52,13 @@ class PDF(FPDF):
 
     # Method that is called by generate_template_portrait to open, resize, crop and paste the portrait to make it circular and save it
     def generate_portrait(self, gender):
-        im = Image.open(f"/Users/DavidT/Desktop/CS50P2/Final_Project/pictures/applicant{gender}.png")
+        im = Image.open(f"pictures/applicant{gender}.png")
         im = ImageOps.fit(im, (220,220))
         mask = Image.new("L", (220,220))
         draw = ImageDraw.Draw(mask)
         draw.ellipse((38,38,180,180), fill=255)
         im.putalpha(mask)
-        im.save("/Users/DavidT/Desktop/CS50P2/Final_Project/pictures/cv_picture.png", quality = 95)
+        im.save("pictures/cv_picture.png", quality=95)
 
 
 
