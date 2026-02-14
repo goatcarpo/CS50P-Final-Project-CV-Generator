@@ -8,7 +8,7 @@ class PDF(FPDF):
         # Ask user for gender and then generate according template picture with generate_template_portrait() 
         self.generate_template_portrait()
         # Take newly generated portrait after it was resized and cropped by 'def generate_portrait() and place it in the upper left corner
-        self.image("/Users/DavidT/Desktop/CS50P2/Final_Project/pictures/cv_picture.png", y = -10, x = ((210/4)/2 - 20))
+        self.image("pictures/cv_picture.png", y=-10, x=((210/4)/2 - 20))
         # Set font and format for first part of the CV - Personal information (name, birthday, place of birth)
         self.set_font("helvetica", style="BU", size=18)
         self.ln(42)
